@@ -7,14 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        inter:['var(--font-inter)']
+      fontFamily: {
+        inter: ['var(--font-inter)'],
       },
-      colors:{
+      colors: {
         background: 'rgb(var(--background))',
         foreground: 'rgb(var(--foreground))',
         accent: 'rgb(var(--accent))',
-      }
+      },
+      boxShadow: {
+        'glass-inset': 'inset 0 17px 5px -9px rgba(213, 239, 255, 0.13)',
+        'glass-sm': '5px 7px 18px 0 rgba(177, 224, 253, 0.85)',
+      },
     },
   },
   plugins: [],
