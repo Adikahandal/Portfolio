@@ -11,7 +11,7 @@ const RenderModel = ({children, ClassName,environment}) => {
         className={clsx("w-screen h-screen -z-10 relative ", ClassName)}
     >
         <Suspense fallback={null}>
-          {children}
+            {children}
         </Suspense>
         <Environment preset={ environment|| 'forest'} />
     </Canvas>

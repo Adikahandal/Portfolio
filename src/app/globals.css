@@ -2,25 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+
+  color: rgb(177, 224, 253);
+}
 
 @layer base {
   :root {
     --background: 27 27 27;
-    --foreground: 233, 246, 255;
+    --foreground: 225 225 225;
     --muted: 115 115 115;
-    --accent: 142, 212, 255;
-    --firefly: 142, 212, 255,0.7;
+    --accent: 202, 235, 255;
+    /* #FEFE5B */
   }
 
 }
 
 
 @layer utilities {
+
   .pause{
     animation-play-state: paused;
   }
-}
 
+}
 
 @keyframes move {
   0%{
@@ -29,5 +34,4 @@
   100%{
     transform: translate(100px,100px);
   }
-  
 }
