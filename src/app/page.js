@@ -8,16 +8,15 @@ import Navigation from "@/components/navigation";
 
 export default function Home() {
   return (
-    <main className="relative w-full h-screen">
+    <main className="w-full h-screen flex">
       {/* Background Image */}
       <Image src={bg} alt="background-img" fill className="absolute top-0 left-0 w-full h-full object-cover object-center -z-50 opacity-80" />
 
       {/* Navigation section */}
-      <Navigation></Navigation>
-
+      <Navigation/>
 
       {/* Models Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full h-full relative">
+      <div className=" grid grid-cols-1 md:grid-cols-3 gap-4 w-full h-full relative">
         <RenderModel environment="city" className="w-full h-full">
           <Phoenix />
         </RenderModel>
@@ -28,6 +27,9 @@ export default function Home() {
           <Dragon_model />
         </RenderModel>
       </div>
+
+
+
     </main>
   );
 }
