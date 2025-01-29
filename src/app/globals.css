@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+/* *{
 
   color: rgb(177, 224, 253);
-}
+} */
+
+
 
 @layer base {
   :root {
@@ -13,7 +15,7 @@
     --foreground: 225 225 225;
     --muted: 115 115 115;
     --accent: 202, 235, 255;
-    /* #FEFE5B */
+    
   }
 
 }

@@ -31,7 +31,7 @@ const ParticleTrail = () => {
             update() {
                 this.x += this.speedX;
                 this.y += this.speedY;
-                this.size *= 0.97;
+                this.size *= 1;
                 this.opacity -= 0.01;
             }
 
