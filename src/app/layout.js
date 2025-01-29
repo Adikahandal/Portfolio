@@ -2,8 +2,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
 import FireFliesBackground from "@/components/FireFliesBackground";
-import ParticleTrail from "@/components/Cursor";
-
 
 const inter = Inter({
   subsets: ["latin"],
@@ -21,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={clsx(inter.variable, "bg-background text-foreground")}>
         {children}
         <FireFliesBackground/>
-        <ParticleTrail/>
+        
       </body>
     </html>
   );

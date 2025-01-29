@@ -5,6 +5,7 @@ import Dragon_model from "@/components/models/Dragon";
 import { Phoenix } from "@/components/models/Phoenix";
 import { Wizard } from "@/components/models/Wizard";
 import Navigation from "@/components/navigation";
+import ParticleTrail from "@/components/Cursor";
 
 export default function Home() {
   return (
@@ -28,6 +29,8 @@ export default function Home() {
           <Dragon_model />
         </RenderModel>
       </div>
+      <ParticleTrail color='202, 235, 255'/>
+      
     </main>
   );
 }

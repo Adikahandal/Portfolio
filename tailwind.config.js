@@ -15,7 +15,9 @@ module.exports = {
       colors: {
         background: 'rgb(var(--background))',
         foreground: 'rgb(var(--foreground))',
+        muted: 'rgb(var(--muted))',
         accent: 'rgb(var(--accent))',
+        yellow_accent:'rgb(var(--yellow_accent))',
       },
       backgroundImage: {
        'firefly-radial': "radial-gradient(50% 50% at 50% 50%, rgba(202, 235, 255, 0.5) 0%, rgba(202, 235, 255, 0) 100%)"
@@ -23,6 +25,8 @@ module.exports = {
       boxShadow: {
         'glass-inset': 'inset 0 17px 5px -9px rgba(213, 239, 255, 0.13)',
         'glass-sm': '5px 4px 20px 0 rgba(177, 224, 253, 0.85)',
+        'glass-inset-y': 'inset 0 17px 5px -9px rgba(255, 253, 193, 0.13)',
+        'glass-sm-y': '5px 4px 20px 0 rgba(255, 253, 193, 0.85)',
       },
       keyframes: {
         'spin-reverse': {

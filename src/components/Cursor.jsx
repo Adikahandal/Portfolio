@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 
-const ParticleTrail = () => {
+const ParticleTrail = ({ color }) => {
     const canvasRef = useRef(null);
 
     useEffect(() => {
@@ -31,14 +31,14 @@ const ParticleTrail = () => {
             update() {
                 this.x += this.speedX;
                 this.y += this.speedY;
-                this.size *= 1;
+                this.size *= 0.98;
                 this.opacity -= 0.01;
             }
 
             draw() {
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-                ctx.fillStyle = `rgba(152,231,239, ${this.opacity})`; // Silvery, translucent color
+                ctx.fillStyle = `rgba(${color}, ${this.opacity})`; // Use the color prop here
                 ctx.fill();
             }
         }
@@ -82,7 +82,7 @@ const ParticleTrail = () => {
             window.removeEventListener('mousemove', handleParticles);
             window.removeEventListener('resize', resizeCanvas);
         };
-    }, []);
+    }, [color]); 
 
     return <canvas ref={canvasRef}></canvas>;
 };
