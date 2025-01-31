@@ -44,7 +44,8 @@ const ParticleTrail = ({ color }) => {
         }
 
         const handleParticles = (e) => {
-            for (let i = 0; i < 5; i++) { 
+            const particleCount = Math.round(5 * 1.5); // Increased by 1.5x (from 5 to 7-8)
+            for (let i = 0; i < particleCount; i++) { 
                 const speedX = (Math.random() - 0.5) * 1;
                 const speedY = (Math.random() - 0.5) * 1;
                 const size = Math.random() * 2 + 0.5; 

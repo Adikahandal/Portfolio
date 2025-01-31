@@ -14,7 +14,7 @@ export default function Sorting_hat(props) {
       modelRef.current.rotation.y += direction * 0.003;
 
       // Reverse direction if it reaches max or min rotation
-      if (modelRef.current.rotation.y >= -3 + maxRotation || modelRef.current.rotation.y <= -3) {
+      if (modelRef.current.rotation.y >= -3.42 + maxRotation || modelRef.current.rotation.y <= -3.42) {
         setDirection((prev) => -prev);
       }
     }
@@ -25,9 +25,9 @@ export default function Sorting_hat(props) {
       {...props}
       dispose={null}
       ref={modelRef}
-      position={[0,1,0]}
-      scale={[0.024, 0.024, 0.024]}
-      rotation={[0.35, -3, 0]}
+      position={[0,1.9,0]}
+      scale={0.02}
+      rotation={[0.5, -3.42, 0]}
     >
       <mesh
         castShadow
