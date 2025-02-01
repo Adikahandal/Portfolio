@@ -4,13 +4,15 @@
 
 /* *{
 
-  color: #fffc9c;
+  color: rgb(114, 201, 255);
 } */
 
+/* Hide Scrollbar for WebKit Browsers */
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;  
 }
 
+/* Hide Scrollbar for Firefox & Edge */
 .scrollbar-hidden {
   -ms-overflow-style: none;  
   scrollbar-width: none;  
@@ -25,7 +27,7 @@
     --muted: 115 115 115;
     --accent: 202, 235, 255;
     --yellow_accent: 255, 253, 193;
-
+    --blue_accent :114, 201, 255;
   }
 
 }

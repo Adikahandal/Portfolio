@@ -18,6 +18,7 @@ module.exports = {
         muted: 'rgb(var(--muted))',
         accent: 'rgb(var(--accent))',
         yellow_accent:'rgb(var(--yellow_accent))',
+        blue_accent:'rgb(var(--blue_accent))',
       },
       backgroundImage: {
        'firefly-radial': "radial-gradient(50% 50% at 50% 50%, rgba(202, 235, 255, 0.5) 0%, rgba(202, 235, 255, 0) 100%)"

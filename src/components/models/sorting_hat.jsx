@@ -26,7 +26,7 @@ export default function Sorting_hat(props) {
       dispose={null}
       ref={modelRef}
       position={[0,1.9,0]}
-      scale={0.02}
+      scale={0.022}
       rotation={[0.5, -3.42, 0]}
     >
       <mesh
