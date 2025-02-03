@@ -102,7 +102,7 @@ export const BtnList = [
   },
   {
     label: "LinkedIn",
-    link: "www.linkedin.com/in/adityakahandal",
+    link: "https://www.linkedin.com/in/adityakahandal/",
     icon: "linkedin",
     newTab: true,
   },
