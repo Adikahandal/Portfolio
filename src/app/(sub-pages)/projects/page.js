@@ -21,19 +21,19 @@ export default function Home() {
         />
       </div>
 
-
-      <div className="absolute right-56 z-10 text-center w-full max-w-4xl h-screen overflow-y-auto pt-10 pb-20 scrollbar-hidden">
+      {/* Project List Section */}
+      <div className="absolute right-0 sm:right-1 lg:right-4 z-10 text-center w-full lg:max-w-4xl h-screen overflow-y-auto pt-10 pb-20 scrollbar-hidden">
         <Projectlist projects={projectsData} />
       </div>
 
-
-      <div className="fixed top-20 left-10 h-screen w-[28%]  flex items-center">
+      {/* Dumbledore Model Section */}
+      <div className="fixed top-24 sm:top-16 md:top-20 lg:top-20 -translate-x-1/2 lg:translate-x-0 left-1/2 lg:left-5 xl:left-10 h-[70vh] sm:h-[80vh] md:h-[90vh] lg:h-screen w-[70%] sm:w-[50%] md:w-[45%] lg:w-[34%] flex items-center">
         <RenderModel environment="city">
           <Dumbledore />
         </RenderModel>
       </div>
 
-
+      {/* Particle Trail Effect */}
       <ParticleTrail color="255, 251, 120" />
     </>
   );

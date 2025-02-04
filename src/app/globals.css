@@ -40,10 +40,10 @@
   }
 
   .custom-bg1 {
-    @apply bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm;
+    @apply bg-background/20 border border-accent/30 border-solid backdrop-blur-[4px] shadow-glass-inset hover:shadow-glass-sm;
   }
   .custom-bg2 {
-    @apply bg-background/20 border border-yellow_accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset-y hover:shadow-glass-sm-y;
+    @apply bg-background/20 border border-yellow_accent/30 border-solid backdrop-blur-[4px] shadow-glass-inset-y hover:shadow-glass-sm-y;
   }
 
 }

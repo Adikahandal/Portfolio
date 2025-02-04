@@ -9,11 +9,11 @@ import RenderModel from "@/components/RenderModel";
 import AboutDetails from "@/components/about";
 
 export default function Home() {
-  useEffect(() => { 
+  useEffect(() => {
     const body = document.body;
-    body.style.overflow = "auto"; 
-    body.style.scrollbarWidth = "none"; 
-    body.style.msOverflowStyle = "none"; 
+    body.style.overflow = "auto";
+    body.style.scrollbarWidth = "none";
+    body.style.msOverflowStyle = "none";
 
     const style = document.createElement('style');
     style.innerHTML = `
@@ -43,16 +43,19 @@ export default function Home() {
         />
       </div>
 
-      <div className="absolute top-10 left-0 z-10 w-full h-screen pointer-events-none">
-        <RenderModel environment="sunset">
-          <Sorting_hat />
-        </RenderModel>
+      <div className="absolute top-10 left-0 z-10 w-full pointer-events-none">
+        <div className="h-3/4 sm:h-[75vh] md:h-[85vh] lg:h-screen flex justify-center">
+          <RenderModel environment="sunset">
+            <Sorting_hat />
+          </RenderModel>
+        </div>
       </div>
 
+
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
-        <div className="absolute flex flex-col w-full items-center text-center top-[60%] left-1/2 -translate-y-1/4 -translate-x-1/2">
-          <h1 className="font-bold text-9xl text-yellow_accent pb-3">Aditya Kahandal</h1>
-          <p className="font-light text-foreground text-lg">The Dark Wizard behind the Portfolio</p>
+        <div className="absolute flex flex-col w-full items-center text-center top-1/2 sm:top-[55%]  md:top-[60%] left-1/2 -translate-y-1/4 -translate-x-1/2">
+          <h1 className="font-bold text-5xl xs:text-7xl sm:8xl lg:text-9xl text-yellow_accent pb-3">Aditya Kahandal</h1>
+          <p className="font-light text-foreground text-sm md:text-lg">The Dark Wizard behind the Portfolio</p>
         </div>
       </div>
 

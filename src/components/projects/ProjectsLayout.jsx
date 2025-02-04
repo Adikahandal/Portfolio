@@ -6,13 +6,13 @@ const ProjectsLayout = ({name ,description, date , demoLink}) => {
     <Link
     href={demoLink}
     target={'_blank'}
-    className='flex items-center justify-between w-full relative rounded-lg oveflow-hidden p-6 custom-bg2'>
+    className='flex text-sm md:text-md lg:text-base items-center justify-between w-full relative rounded-lg oveflow-hidden p-4 md:p-6 custom-bg2'>
         <div className='flex items-center justify-center space-x-2'>
             <h2 className='text-foreground'>{name}</h2>
-            <p className='text-muted'>{description}</p>
+            <p className='text-muted hidden sm:inline-block'>{description}</p>
         </div>
         <div className='self-end flex-1 mx-2 mb-1 bg-transparent border-b border-dashed border-muted '/>
-        <p className='text-foreground'>
+        <p className='text-muted sm:text-foreground'>
             {new Date(date).toDateString()}
         </p>
     </Link>
