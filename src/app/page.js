@@ -16,10 +16,10 @@ export default function Home() {
     const handleResize = () => {
       setSize(window.innerWidth);
     };
-    
+
     handleResize(); // Initialize on load
     window.addEventListener("resize", handleResize);
-    
+
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <main className="relative w-full h-screen flex flex-col">
       {/* Background Image */}
-      <Image src={bg} alt="background-img" fill className="absolute top-0 left-0 w-full h-full object-cover object-center -z-50 opacity-80" />
+      <Image priority sizes="100vw" src={bg} alt="background-img" fill className="absolute top-0 left-0 w-full h-full object-cover object-center -z-50 opacity-80" />
 
       {/* Navigation Section */}
       <Navigation />
@@ -62,7 +62,7 @@ export default function Home() {
         )}
       </div>
 
-      <ParticleTrail color='202, 235, 255'/>
+      <ParticleTrail color='202, 235, 255' />
     </main>
   );
 }

@@ -2,9 +2,12 @@
 import Image from "next/image";
 import bg from "../../../../public/background/azkaban_prison.jpeg";
 import ParticleTrail from "@/components/Cursor";
-import Dementor from "@/components/models/dementor";
+// import Dementor from "@/components/models/dementor";
 import RenderModel from "@/components/RenderModel";
 import Form from "@/components/contact/Form";
+import dynamic from "next/dynamic";
+
+const Dementor = dynamic(() => import("@/components/models/dementor"), { ssr: false },);
 
 export default function Contact() {
   return (
@@ -12,6 +15,7 @@ export default function Contact() {
       {/* Fixed Background Image */}
       <div className="fixed top-0 left-0 w-full h-full z-0">
         <Image
+          priority sizes="100vw"
           src={bg}
           alt="background-img"
           layout="fill"
@@ -64,7 +68,7 @@ export default function Contact() {
           <div className="w-full text-center pt-2 md:pt-4 lg:pt-6 space-y-">
             <strong className="text-green-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Caution!!</strong> <br />
             <div className="  text-md md:text-lg ">
-            Filling This may backfire, As the Spell is risky
+              Filling This may backfire, As the Spell is risky
             </div>
           </div>
 

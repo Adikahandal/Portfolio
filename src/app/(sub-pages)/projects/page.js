@@ -4,7 +4,10 @@ import Projectlist from "@/components/projects";
 import { projectsData } from "../../data";
 import ParticleTrail from "@/components/Cursor";
 import RenderModel from "@/components/RenderModel";
-import Dumbledore from "@/components/models/Dumbledore";
+// import Dumbledore from "@/components/models/Dumbledore";
+import dynamic from "next/dynamic";
+
+const Dumbledore = dynamic(() => import("@/components/models/Dumbledore"), { ssr: false },);
 
 export default function Home() {
   return (
@@ -12,6 +15,7 @@ export default function Home() {
       {/* Fixed Background Image */}
       <div className="fixed top-0 left-0 w-full h-full z-0">
         <Image
+          priority sizes="100vw"
           src={bg}
           alt="background-img"
           layout="fill"
