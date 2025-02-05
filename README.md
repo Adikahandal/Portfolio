@@ -1,30 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Portfolio
 It is custom Portfolio, of Mr. Aditya Kahandal.. 
 =======
 =======
-# Next.js Creative Portfolio Tutorial: Build Amazing Portfolio Website with Next.js, Three.js, and Tailwind CSS 🔥
-
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
-
-This repository contains **starter code** for Next.js Creative Portfolio website built using Next.js and Three.js. <br />
-
-For Demo checkout following link👇: <br />
-[Nextjs Creative Portfolio Website Demo](https://next-js-creative-portfolio-website.vercel.app/) <br />
-
-Final Code👇: <br />
-➡ Link 💚: [Nextjs Creative Portfolio Website Final Code](https://github.com/codebucks27/Next.js-Creative-Portfolio-Website) <br />
-<!--- ➡ Link 2💚(If you want to support): [Nextjs Creative Portfolio Website Final Code](https://codebucks.gumroad.com/l/ypzlu) <br /> --->
-
-If you want to learn how to create it please follow below tutorial👇: <br />
-➡ Tutorial Link 💚: [Personal Portfolio Website with Next.js, Three.js & Tailwind CSS Tutorial](https://youtu.be/T5t46vuW8fo) 
-[![YouTube Video Views](https://img.shields.io/youtube/views/T5t46vuW8fo
-)](https://youtu.be/T5t46vuW8fo) <br />
-
-💚 Checkout my personal website [DevDreaming](https://devdreaming.com) <br />
+# Aditya Kahandal Portfolio: Build Amazing Portfolio Website with Next.js, Three.js, and Tailwind CSS 🔥
+<br />
 
 ---
 # ⭐DO NOT FORGET TO STAR THIS REPO⭐
@@ -33,38 +12,40 @@ If you want to learn how to create it please follow below tutorial👇: <br />
 ## Images of The Portfolio Website:
 
 #### Home
-![Nextjs Creative Portfolio Website](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Home-desktop.png)
+![Portfolio_Home_Page](https://github.com/Adikahandal/Portfolio/blob/main/website%20images/Home_page.png)
 
-#### About
-![Nextjs Creative Portfolio Website About Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/About-desktop-full.png)
+#### About Section 1
+![Portfolio About Page1](https://github.com/Adikahandal/Portfolio/blob/main/website%20images/About_page1.png)
+
+#### About Section 2
+![Portfolio About Page2](https://github.com/Adikahandal/Portfolio/blob/main/website%20images/About_page2.png)
 
 #### Projects
-![Next.js Creative Portfolio Website Projects Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Projects-desktop.png)
+![Portfolio_Project_Page](https://github.com/Adikahandal/Portfolio/blob/main/website%20images/Projects_page.png)
 
-#### Contact
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Contact-desktop.png)
-
-#### Mobile Version
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Home-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/About-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Projects-mobile.png)
-![Next.js Creative Portfolio Website Contact Page](https://github.com/codebucks27/Nextjs-Creative-Portfolio-Starter-Code-Files/blob/main/website%20images/Contact-mobile.png)
+#### Contact section 1
+![Portfolio Contact Page1](https://github.com/Adikahandal/Portfolio/blob/main/website%20images/Contact_page1.png)
+#### Contact section 2
+![Portfolio Contact Page2](https://github.com/Adikahandal/Portfolio/blob/main/website%20images/Contact_page2.png)
 
 ## Resources Used in This Project
 
 #### 3D Models
 
-- ["Tim Mckee - Boy Wizard"](https://skfb.ly/6YATu) by [elbertwithane is licensed under Creative Commons Attribution ](http://creativecommons.org/licenses/by/4.0/).
-- ["Stylized wizard hat"](https://skfb.ly/ozxOQ) by [Enkarra is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
-- ["Wizard Staff"](https://skfb.ly/6QYZw) by [Toymancer Studio is licensed under Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
+- ["AI_Generated_Slytherin_boy_charater"](https://www.meshy.ai/) 
+- ["Dragon_model"](https://www.meshy.ai/)
+- ["Sorting_Hat_model"](https://sketchfab.com/3d-models/sorting-hat-0938de950cb346b29160d5d3d16194b8) by [bryangregory is licensed under Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/).
+- ["Dementor_model"](https://www.meshy.ai/)
+- ["Phoenix_model"](https://www.meshy.ai/)
+- ["Dumbledore_model"](https://sketchfab.com/3d-models/dumbledore-bcb0ca50e18544d299e496521abed7ef) by [zackgraham is licensed under Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/)
 
+  
 #### AI Images
-
 - Created with the help of [Playground AI](https://playgroundai.com/)
 
 #### Github Stats & Details
 
-- [Github ReadMe Stats](https://github.com/anuraghazra/github-readme-stats)
+- [Github ReadMe Stats](https://github.com/Adikahandal/github-readme-streak-stats)
 - [Skills Icons](https://github.com/tandpfun/skill-icons)
 - [Github Readme Streak Stats](https://github.com/denvercoder1/github-readme-streak-stats)
 
@@ -78,14 +59,6 @@ If you want to learn how to create it please follow below tutorial👇: <br />
 - Emails using [Emailjs](https://www.emailjs.com/) <br />
 - Convert 3d models to JSX using [Gltf JSX](https://github.com/pmndrs/gltfjsx)
 
-#### Audio 
-
-- Music by <a href="https://pixabay.com/users/shidenbeatsmusic-25676252/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20772">Shiden Beats Music</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20772">Pixabay</a>
-
----
-
->>>>>>> 0fa5db2 (Update README.md)
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -104,7 +77,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-<<<<<<< HEAD
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
@@ -117,25 +89,4 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-<<<<<<< HEAD
->>>>>>> f7d209d (Initial commit from Create Next App)
-=======
-
-
-### 3d Models From:
-
-- Wizard Boy - https://sketchfab.com/3d-models/tim-mckee-boy-wizard-900beec6d3504d51ade81cb5c052163b
-
-- Wizard Hat - https://sketchfab.com/3d-models/stylized-wizard-hat-f59021d602334367987bcd7657cec722
-
-- Wizard Staff - https://sketchfab.com/3d-models/wizard-staff-873f596fb3cc44998cb75a3dce60181f
->>>>>>> ffe4445 (Starter code files)
-=======
->>>>>>> 0fa5db2 (Update README.md)
