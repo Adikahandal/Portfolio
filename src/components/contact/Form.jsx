@@ -32,7 +32,7 @@ export default function Form() {
             .send(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, params, {
                 publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
                 limitRate: {
-                    throttle: 10000, // cannot send more than 1 email per 10 sec
+                    throttle: 1000, // cannot send more than 1 email per 10 sec
                 }
             })
             .then(
