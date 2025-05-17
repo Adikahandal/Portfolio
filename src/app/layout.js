@@ -13,7 +13,7 @@ const inter = Inter({
 
 // SEO Metadata
 export const metadata = {
-  title: "Aditya Kahandal | Full-Stack Developer",
+  title: "Aditya Kahandal ",
   description: "Aditya Kahandal - A Full-Stack Developer specializing in MERN stack. Explore my projects, skills, and contact details.",
   keywords: "Aditya Kahandal, Full-Stack Developer, MERN, JavaScript, React, Node.js, Portfolio",
   authors: [{ name: "Aditya Kahandal", url: "https://adityakahandalportfolio.vercel.app" }],
