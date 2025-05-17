@@ -18,6 +18,13 @@ Websites:
 
 export const projectsData = [
   {
+    id: 1,
+    name: "Freightnaut-Clone",
+    description: "Clone of the Product of P99 Soft Pvt. Ltd.",
+    date: "2025-02-28",
+    demoLink: "https://freightnaut-clone.vercel.app/",
+  },
+  {
     id: 2,
     name: "Employee Tracker",
     description: "A tracker to show number of employees available near the Sites of Organization",
@@ -30,13 +37,6 @@ export const projectsData = [
     description: "Track Your Everyday Todo-List",
     date: "2025-01-23",
     demoLink: "https://adikahandal.github.io/Todo_react/",
-  },
-  {
-    id: 1,
-    name: "Freightnaut-Clone",
-    description: "Clone of the Product of P99 Soft Pvt. Ltd.",
-    date: "2025-02-28",
-    demoLink: "https://freightnaut-clone.vercel.app/",
   },
   // {
   //   id: 4,
