@@ -18,26 +18,26 @@ Websites:
 
 export const projectsData = [
   {
-    id: 1,
+    id: 2,
+    name: "Employee Tracker",
+    description: "A tracker to show number of employees available near the Sites of Organization",
+    date: "2025-02-19",
+    demoLink: "https://employee-tracker-rouge.vercel.app/",
+  },
+  {
+    id: 3,
     name: "Todo-List",
     description: "Track Your Everyday Todo-List",
     date: "2025-01-23",
     demoLink: "https://adikahandal.github.io/Todo_react/",
   },
   {
-    id: 2,
-    name: "ArtGallery Online",
-    description: "",
-    date: "2025-02-27",
-    demoLink: "https://employee-tracker-rouge.vercel.app/",
+    id: 1,
+    name: "Freightnaut-Clone",
+    description: "Clone of the Product of P99 Soft Pvt. Ltd.",
+    date: "2025-02-28",
+    demoLink: "https://freightnaut-clone.vercel.app/",
   },
-  // {
-  //   id: 3,
-  //   name: "BudgetPlanner",
-  //   description: "Plan and track expenses",
-  //   date: "2022-09-10",
-  //   demoLink: "https://budgetplanner.example.com",
-  // },
   // {
   //   id: 4,
   //   name: "HealthBeat",
