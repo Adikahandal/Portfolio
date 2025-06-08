@@ -108,7 +108,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "public\Aditya_Kahandal_0625.pdf",
+    link: "\public\Aditya_Kahandal_0625.pdf",
     icon: "resume",
     newTab: true,
   },
